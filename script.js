@@ -1,4 +1,4 @@
-const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQaVGkMjzD_21PrjnGZHvtWvkPLi0C3QcemJmdZHqGgWLkqqh10K3EfSrz_h9fTRfc0fZMF4EFhMzfb/pub?output=csv";
+const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQchM-nkNlKoX2byLhlmUAsJV8hH_e6lsAQ1_NMkDL63OsB35BmQrjWa1xnVEjOzJshbGeKCisR8ctc/pub?output=csv";
 let rawData = [];
 let yearsSet = new Set();
 let allData = [];
@@ -482,5 +482,6 @@ async function init(){
     drawMonthChart();
     drawEventTypeChart();
 }
+
 
 document.addEventListener('DOMContentLoaded', init);
